@@ -15,16 +15,14 @@ def draw_square():
     walk = turtle.Turtle()
     walk.shape("turtle")
     walk.color("green")
-    walk.speed(3)
+    walk.speed(1)
     
     walk.forward(100)
-    walk.right(90)
+    walk.right(120)
     walk.forward(100)
-    walk.right(90)
+    walk.right(120)
     walk.forward(100)
-    walk.right(90)
-    walk.forward(100)
-    
+
     window.exitonclick()
     
     
