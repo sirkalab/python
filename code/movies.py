@@ -13,7 +13,7 @@ def draw_triangle_turtle(walk):
     tilt = 3
     count = 1
     steps = 200
-    while (count < 120):
+    while (count <= 3):
         print(count)
         if (count > 1):
             walk.right(tilt)
